@@ -1,0 +1,14 @@
+#submit_search{
+	display: none;
+}
+
+.title{
+	height: 37px;
+	background-color: #000000;
+	border: 2px solid #000000;
+	color: #ffffff;
+	position: relative;
+}
+.input_date{
+	width: 75px;
+}
