@@ -116,7 +116,6 @@
 	<link rel="stylesheet" href="include/style.css" >
 	<!--Bootstrap-->
 	<link rel="stylesheet" type="text/css" href="include/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="include/bootstrap/css/bootstrap-theme.min.css">
 	<style type="text/css">body{padding-top: 60px;}</style>
 	<!--Javascript-->
 	<script src="include/bootstrap/js/bootstrap.min.js"></script>
@@ -130,10 +129,7 @@
 	<h1 class="page-header">PERSONAL DATA SHEET</h1>
 	<h2 class="title"><i>PERSONAL INFORMATION</i></h2>
 	<div class="row">
-		<div class="col-md-6">
-	<label class="" for="employee_id">EMPLOYEE ID #</label>
-	<input class="" type="number" name="employee_id" required>
-	</div>
+		<div class="col-md-6"><label class="" for="employee_id">EMPLOYEE ID #</label><input class="" type="number" name="employee_id" required></div>
 	</div>
 	<div class="row">
 		<div class="col-md-6"><label class="" for="surename">SURENAME</label><input class="" type="text" name="surename" id="surename"></div>
@@ -164,7 +160,9 @@
 	</div>
 	
 	<div class="row align-items-start">
-		<div class="col-md-6"><label class="" for="civil_status">CIVIL STATUS</label><input class="" type="text" name="civil_status"></div>
+		<div class="col-md-6"><label class="" for="civil_status">CIVIL STATUS</label><input class="" type="radio" name="civil_status" value="single">Single<input class="" type="radio" name="civil_status" value="widowed">Widowed
+		<input class="" type="radio" name="civil_status" value="married">Married<input class="" type="radio" name="civil_status" value="separeted">Separeted
+		<input class="" type="radio" name="civil_status" value="annulled">Annulled</div>
 		<div class="col-md-6"><label class="" for="residential_telephone_no">TELEPHONE NO.</label><input class="" type="text" name="residential_telephone_no"></div>
 	</div>
 
@@ -209,11 +207,134 @@
 	</div>
 
 	<h2 class="title"><i>FAMILY BACKGROUND</i></h2>
+	<div class="family_background_child">
 	<div class="row align-items-start">
 		<div class="col-md-6"></div>
-		<div class="col-md-4"><label class="" for="name_of_child">NAME OF CHILD (Write in full name and list all)</label><input class="" type="text" name="name_of_child"></div>
-		<div class="col-md-2"><label class="" for="child_date_of_birth">DATE OF BIRTH</label><input class="" type="date" name="child_date_of_birth"></div>
+		<div class="col-md-4"><label class="" for="name_of_child">NAME OF CHILD (Write in full name and list all)</label></div>
+		<div class="col-md-2"><label class="" for="child_date_of_birth">DATE OF BIRTH</label></div>
 	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-6"></div>
+		<div class="col-md-4"><input class="" type="text" name="name_of_child"></div>
+		<div class="col-md-2"><input class="" type="date" name="child_date_of_birth"></div>
+	</div>
+	</div>
+	<div class="family_background">
 	<div class="row align-items-start">
 		<div class="col-md-6"><label class="" for="spouse_surename">SPOUSE'S SURENAME</label><input class="" type="text" name="spouse_surename"></div>
 	</div>
@@ -256,7 +377,8 @@
 	<div class="row align-items-start">
 		<div class="col-md-6"><label class="" for="mother_middle_name">MIDDLE NAME</label><input class="" type="text" name="mother_middle_name"></div>
 	</div>
-
+	</div>
+	<div class="educational_background">
 	<h2 class="title"><i>EDUCATIONAL BACKGROUND</i></h2>
 	
 	<div class="row align-items-start">
@@ -303,7 +425,7 @@
 		<div class="col-md-2"><input class="" type="text" name="year_graduated_grad_studies" value=""></div>
 		<div class="col-md-2"><input class="" type="text" name="highest_grade_grad_studies" value=""></div>
 	</div>
-	
+	</div>
 			
 			
 
@@ -358,55 +480,50 @@
 			<div class="col-md-2"><input type="text" name="status_of_appointment"></div>
 			<div class="col-md-2"><input type="text" name="govt_service"></div>
 		</div>
-
+	
 	<h4 class="title"><i> VOLUNTARY WORK OR INVOLVEMENT IN CIVIC / NON-GOVERNMENT / PEOPLE / VOLUNTARY ORGANIZATION/S</i></h4>
-	<table>
-		<tr>
-			<th>NAME & ADDRESS OF ORGANIZATION<br>(Write in full)</th>
-			<th>INCLUSIVE DATES <br>(mm/dd/yyyy)
-				<table>
-					<tr>
-						<td>From</td>
-						<td>To</td>
-					</tr>
-				</table>
-			</th>
-			<th>NUMBER OF HOURS</th>
-			<th>POSITION / NATURE OF WORK</th>
-		</tr>
-		<tr>
-			<td><input type="text" name="name_organization"></td>
-			<td><input type="date" name="voluntary_work_inclusive_dates_from">
-			<input type="date" name="voluntary_work_inclusive_dates_to"></td>
-			<td><input type="text" name="voluntary_number_of_hours"></td>
-			<td><input type="text" name="voluntary_position"></td>
-			
-		</tr>
-
-	</table>
-
+	<div class="row align-items-start">
+		<div class="col-md-3">NAME & ADDRESS OF ORGANIZATION<br>(Write in full)</div>
+		<div class="col-md-4">INCLUSIVE DATES <br>(mm/dd/yyyy)</div>
+		<div class="col-md-2">NUMBER OF HOURS</div>
+		<div class="col-md-3">POSITION / NATURE <br>OF WORK</div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-3"></div>
+		<div class="col-md-2">From</div>
+		<div class="col-md-2">To</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="row align-items-start">
+		<div class="col-md-3"><input type="text" name="name_organization"></div>
+		<div class="col-md-2"><input type="date" name="voluntary_work_inclusive_dates_from"></div>
+		<div class="col-md-2"><input type="date" name="voluntary_work_inclusive_dates_to"></div>
+		<div class="col-md-2"><input type="text" name="voluntary_number_of_hours"></div>
+		<div class="col-md-3"><input type="text" name="voluntary_position"></div>
+	</div>
+	
 	<h2 class="title"><i>TRAINING PROGRAMS (Start from the most recent training)</i></h2>
-	<table>
-		<tr>
-			<th>TITLE OF SEMINAR/CONFERENCE/WORKSHOP/SHORT COURSES <br>(Write in full)</th>
-			<th>INCLUSIVE DATES OF ATTENDANCE <br>(mm/dd/yyyy)
-			<table>
-				<td>From</td>
-				<td>To</td>
-			</table>	
-			</th>
-			<th>NUMBER OF HOURS</th>
-			<th>	CONDUCTED / SPONSORED BY <br>(Write in full)</th>
-		</tr>
-		<tr>
-			<td><input type="text" name="title_seminar"></td>
-			<td><input type="date" name="training_inclusive_dates_from">
-			<input type="date" name="training_inclusive_dates_to"></td>
-			<td><input type="text" name="training_number_of_hours"></td>
-			<td><input type="text" name="training_position"></td>
-		</tr>
-	</table>
+	<div class="row align-items-start">
+		<div class="col-md-3">TITLE OF SEMINAR/CONFERENCE/WORKSHOP/SHORT COURSES <br>(Write in full)</div>
+			<div class="col-md-3">INCLUSIVE DATES OF ATTENDANCE <br>(mm/dd/yyyy)</div>
+			<div class="col-md-3">NUMBER OF HOURS</div>
+			<div class="col-md-3">CONDUCTED / SPONSORED BY <br>(Write in full)</div>
+		</div>
+		<div class="row align-items-start">
+			<div class="col-md-3"></div>
+			<div class="col-md-2">From</div>
+			<div class="col-md-2">To</div>
+			<div class="col-md-3"></div>
+		</div>
 
+		<div class="row align-items-start">
+			<div class="col-md-3"><input type="text" name="title_seminar"></div>
+			<div class="col-md-2"><input type="date" name="training_inclusive_dates_from"></div>
+			<div class="col-md-2"><input type="date" name="training_inclusive_dates_to"></div>
+			<div class="col-md-2"><input type="text" name="training_number_of_hours"></div>
+			<div class="col-md-3"><input type="text" name="training_position"></div>
+		</div>
+	
 	<h2 class="title"><i>OTHER INFORMATION</i></h2>
 	<table>
 		<tr>

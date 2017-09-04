@@ -8,7 +8,22 @@
 	border: 2px solid #000000;
 	color: #ffffff;
 	position: relative;
+	margin-top: 10px;
+	clear: both;
 }
 .input_date{
 	width: 75px;
 }
+#left_menu{
+	height: 600px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-top: 20px;
+	border: 1px solid #ccc;
+
+}
+.family_background_child{float: right; width: 79%; border: 1px solid #000; position: absolute;}
+.family_background{float: left; width: 50%; border: 1px solid #000}
+.educational_background{margin:auto;top: 0; left: 0; bottom: 0; right: 0;position: absolute;}
+@media (min-width:1200px){.mycontainer{width:80%;float: right;margin-right: 15px;}
